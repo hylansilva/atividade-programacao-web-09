@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lista de Tarefas (Back4App)</title>
+    <script src="./index.js" defer></script>
+    <meta charset="utf-8" />
+    <style>
+      li{ display: flex; align-items: center;}
+      button, input{ height: 20px; margin: 0 5px;}
+      .done{
+        text-decoration: line-through;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Lista de Tarefas (Back4App)</h1>
+    <hr />
+    <p>
+      Descrição da tarefa:
+      <input id="inputDescricao" />
+      <button id="btAdd">Adicionar Tarefa</button>
+    </p>
+    <hr />
+    <ul id="lista"></ul>
+  </body>
+</html>
